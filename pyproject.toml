@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "demo-async"
+version = "0.1.0"
+description = ""
+authors = ["Adam Wojtczak <adam1edinburgh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo_async"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+gunicorn = "^20.1.0"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
